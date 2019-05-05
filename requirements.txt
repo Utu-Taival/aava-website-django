@@ -1,1 +1,12 @@
--r requirements/development.txt
+Django==2.2.1
+django-authtools==1.6.0
+django-braces==1.13.0
+django-crispy-forms==1.7.2
+django-debug-toolbar==1.11
+django-environ==0.4.5
+django-maintenance-mode==0.13.1
+easy-thumbnails==2.6
+Pillow==6.0.0
+pytz==2019.1
+sqlparse==0.3.0
+Werkzeug==0.15.2
