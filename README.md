@@ -1,4 +1,4 @@
-# Aavasever website
+# Aavaserver website
 
 It is built with [Python][0] using the [Django Web Framework][1].
 
