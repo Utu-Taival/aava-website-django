@@ -2,102 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ced65a7-e5ed-4f32-ae2b-d67ca09ad5f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aava.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/django.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/project.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements/base.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements/development.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements/production.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aava/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aava/logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aava/settings/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aava/settings/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aava/settings/development.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aava/settings/local.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aava/settings/local.sample.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aava/settings/production.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aava/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aava/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aava/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accounts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accounts/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accounts/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accounts/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accounts/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accounts/templates/accounts/auth_base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accounts/templates/accounts/emails/password-reset-email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accounts/templates/accounts/emails/password-reset-subject.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accounts/templates/accounts/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accounts/templates/accounts/password-change.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accounts/templates/accounts/password-reset-confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accounts/templates/accounts/password-reset-done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accounts/templates/accounts/password-reset.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accounts/templates/accounts/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accounts/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accounts/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accounts/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/media/default_profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/media/default_profile.png.140x140_q85_crop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/media/default_profile.png.30x30_q85_crop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/profiles/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/profiles/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/profiles/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/profiles/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/profiles/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/profiles/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/profiles/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/profiles/signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/profiles/templates/profiles/edit_profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/profiles/templates/profiles/show_profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/profiles/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/profiles/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/profiles/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recipes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recipes/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recipes/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recipes/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recipes/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recipes/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recipes/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/site/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/site/ico/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/site/img/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/site/img/logo-big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/site/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/site/js/site.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/503.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/_brandname.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/_navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/registration/logged_out.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/registration/password_change_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/registration/password_change_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/registration/password_reset_complete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/registration/password_reset_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/registration/password_reset_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/registration/password_reset_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/bootstrap/css/solar_bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/django.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/django.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aava/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/aava/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/site/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/site/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/_navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/_navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,36 +34,18 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/templates/_navbar.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/_brandname.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aava/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LICENSE.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="504">
-                <caret line="24" selection-start-line="24" selection-end-line="24" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/src/templates/_brandname.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -149,24 +53,47 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/aava/settings/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="141" lean-forward="true" selection-start-line="141" selection-end-line="141" />
+            <state relative-caret-position="324">
+              <caret line="116" column="24" lean-forward="true" selection-start-line="116" selection-start-column="24" selection-end-line="116" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aava/settings/production.py">
+        <entry file="file://$PROJECT_DIR$/src/static/site/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1219" />
+            <state relative-caret-position="363">
+              <caret line="151" column="1" selection-start-line="151" selection-start-column="1" selection-end-line="151" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+              <folding>
+                <element signature="e#4185#4191#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/aava/settings/development.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-610">
-              <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+            <state relative-caret-position="578">
+              <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -177,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/templates/503.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="204">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -202,6 +129,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>lightb</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -210,21 +142,23 @@
       <list>
         <option value="$PROJECT_DIR$/src/templates/aava/home.html" />
         <option value="$PROJECT_DIR$/src/accounts/templates/accounts/login.html" />
-        <option value="$PROJECT_DIR$/src/templates/home.html" />
-        <option value="$PROJECT_DIR$/src/templates/base.html" />
         <option value="$PROJECT_DIR$/src/templates/_brandname.html" />
         <option value="$PROJECT_DIR$/src/templates/about.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/templates/503.html" />
         <option value="$PROJECT_DIR$/src/aava/settings/base.py" />
+        <option value="$PROJECT_DIR$/src/static/site/css/main.css" />
+        <option value="$PROJECT_DIR$/src/templates/_navbar.html" />
+        <option value="$PROJECT_DIR$/src/templates/base.html" />
+        <option value="$PROJECT_DIR$/src/templates/home.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="22" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="512" />
+    <option name="y" value="31" />
     <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="height" value="998" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -232,40 +166,71 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="aava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aava" type="462c0819:PsiDirectoryNode" />
+              <item name="aava-website-django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aava-website-django" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="aava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aava" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aava" type="462c0819:PsiDirectoryNode" />
+              <item name="aava-website-django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aava-website-django" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="aava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aava" type="462c0819:PsiDirectoryNode" />
+              <item name="aava-website-django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aava-website-django" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="aava" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="aava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aava" type="462c0819:PsiDirectoryNode" />
+              <item name="aava-website-django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aava-website-django" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="aava" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="aava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aava" type="462c0819:PsiDirectoryNode" />
+              <item name="aava-website-django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aava-website-django" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aava-website-django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aava-website-django" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aava-website-django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aava-website-django" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aava-website-django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aava-website-django" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aava-website-django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aava-website-django" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aava-website-django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aava-website-django" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -273,6 +238,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,6 +252,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sami\PycharmProjects\aava-website-django\src\static\bootstrap\js" />
+      <recent name="C:\Users\Sami\PycharmProjects\aava-website-django\src\static\bootstrap\css" />
       <recent name="$PROJECT_DIR$/src/templates" />
     </key>
   </component>
@@ -310,7 +278,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="aava.settings.development" />
       </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/.local/share/virtualenvs/aava-EuxiT52L/bin/python" />
+      <option name="SDK_HOME" value="C:\Users\Sami\.virtualenvs\aava-website-django-WcYkMek9\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -339,21 +307,22 @@
       <updated>1556919885538</updated>
       <workItem from="1556919890925" duration="3526000" />
       <workItem from="1557086626631" duration="1485000" />
+      <workItem from="1557338947428" duration="4923000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5011000" />
+    <option name="totallyTimeSpent" value="9934000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-1" width="1922" height="1046" extended-state="7" />
+    <frame x="512" y="31" width="1400" height="998" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22462687" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33039647" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32871974" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298731" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -362,14 +331,37 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3656286" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32917964" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32932165" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32871974" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298731" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3656286" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32917964" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -381,9 +373,6 @@
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/static/bootstrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/recipes/views.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -432,13 +421,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.local/share/virtualenvs/aava-EuxiT52L/lib/python3.7/site-packages/django/views/generic/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="121" column="23" selection-start-line="121" selection-start-column="23" selection-end-line="121" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/aava-EuxiT52L/lib/python3.7/site-packages/django/views/generic/base.py" />
     <entry file="file://$PROJECT_DIR$/src/aava/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -453,20 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1927">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/accounts/templates/accounts/auth_base.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -474,23 +443,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/_navbar.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/_brandname.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -503,10 +455,23 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="504">
+          <first_editor relative-caret-position="408">
             <caret line="24" selection-start-line="24" selection-end-line="24" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aava/settings/production.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aava/settings/development.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -518,32 +483,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/503.html">
+    <entry file="file://$PROJECT_DIR$/src/static/bootstrap/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="153">
+          <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aava/settings/production.py">
+    <entry file="file://$PROJECT_DIR$/src/static/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1219" />
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="34" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aava/settings/development.py">
+    <entry file="file://$PROJECT_DIR$/src/static/site/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-610">
-          <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+        <state relative-caret-position="363">
+          <caret line="151" column="1" selection-start-line="151" selection-start-column="1" selection-end-line="151" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/_brandname.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/503.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/_navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#4185#4191#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aava/settings/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="141" lean-forward="true" selection-start-line="141" selection-end-line="141" />
+        <state relative-caret-position="324">
+          <caret line="116" column="24" lean-forward="true" selection-start-line="116" selection-start-column="24" selection-end-line="116" selection-end-column="24" />
         </state>
       </provider>
     </entry>

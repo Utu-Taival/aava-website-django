@@ -110,6 +110,9 @@ body>.navbar-transparent {
     margin-top: 100px;
 }
 
+.container {
+}
+
 .footer a:hover {
     text-decoration: none;
 }

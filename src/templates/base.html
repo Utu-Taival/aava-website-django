@@ -2,11 +2,11 @@
 <html lang="fi">
     {% load staticfiles %}
     {% load thumbnail %}
-    
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="{% block description %}{% endblock description %}">
     <meta name="author" content="Arun Ravindran">
     <link rel="shortcut icon" href="{% static 'site/ico/favicon.ico' %}">
@@ -14,7 +14,8 @@
     <title>{% block title %}{% include "_brandname.html" %} :: {% endblock %}</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 
     <!-- Custom styles for this site -->
     {% block styles %}
@@ -24,24 +25,13 @@
     <!-- Custom tags for the head tag -->
     {% block extrahead %}{% endblock extrahead %}
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+
   </head>
 
   <body>
 
     {% block navbar %}
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+    <div class="navbar-expand-md navbar-dark bg-dark fixed-top">
           <a class="navbar-brand" href="{% url 'home' %}">
             {% block navbar-brand %}
               <img src="{% static 'site/img/logo.png' %}" alt="logo">
@@ -66,7 +56,7 @@
 			{{ user.get_full_name|truncatechars:20 }}
 			<span class="caret"></span>
 		    </a>
-		    
+
                   <ul class="dropdown-menu" role="menu">
                     <li><a href="{% url 'profiles:show_self' %}">Profile</a></li>
                     <li><a href="{% url 'accounts:logout' %}">Logout</a></li>
@@ -93,7 +83,7 @@
 
     {% block splash %}
     {% endblock splash %}
-    
+
     {% block container %}
     <div class="container">
 
@@ -123,8 +113,9 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="{% static 'bootstrap/js/bootstrap.bundle.min.js' %}"></script>
     {% block scripts %}
     {% endblock scripts %}
   </body>
