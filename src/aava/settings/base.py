@@ -72,8 +72,6 @@ INSTALLED_APPS = (
     "authtools",
     "crispy_forms",
     "easy_thumbnails",
-    "profiles",
-    "accounts",
     'maintenance_mode',
 )
 
@@ -121,7 +119,7 @@ MAINTENANCE_MODE = False
 
 STATIC_URL = "/static/"
 
-ALLOWED_HOSTS = ['aavaserveri.fi', '127.0.0.1']
+ALLOWED_HOSTS = ['aavaserveri.fi', 'dev.aavaserveri.fi', '127.0.0.1']
 
 # Crispy Form Theme - Bootstrap 3
 CRISPY_TEMPLATE_PACK = "bootstrap3"
